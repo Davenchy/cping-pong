@@ -15,4 +15,5 @@ using gcc
 
 ```sh
 $ gcc -Wall -lraylib -o cping_pong main.c
+$ ./cping_pong
 ```
