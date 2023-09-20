@@ -8,12 +8,19 @@
 
 ## Build
 
-- Make sure that RayLib is installed on your system then compile the project
-using gcc
+- Make sure that RayLib is installed on your system then compile the project.
 
-> Curently you don't need the other source files.
+1. Create directory `build/`
 
 ```sh
-$ gcc -Wall -lraylib -o cping_pong main.c
+$ mkdir -p build/
+```
+
+2. Compile the project by running `make` or `make run` to compile and run the project.
+
+```sh
+$ make
 $ ./cping_pong
+# OR
+$ make run
 ```
