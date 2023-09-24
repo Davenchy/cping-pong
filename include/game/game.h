@@ -1,6 +1,7 @@
 #ifndef __GAME_H__
 #define __GAME_H__
 
+#include "../utils.h"
 #include "ball.h"
 #include "paddle.h"
 #include "score.h"
@@ -16,8 +17,6 @@
 
 #define FONT_SIZE 130
 #define FONT_HALF_SIZE (int)(FONT_SIZE / 2)
-
-#define ABS(x) (((x) < 0) ? -(x) : (x))
 
 typedef struct {
   Ball ball;
